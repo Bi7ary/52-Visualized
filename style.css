@@ -116,4 +116,20 @@ button:hover {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+button {
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+body {
+  touch-action: manipulation;
+  overscroll-behavior: none;
+}
+
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
 
