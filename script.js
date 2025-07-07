@@ -26,7 +26,6 @@ function renderDeck(deckArray) {
 
   deckArray.forEach((card, index) => {
     const img = document.createElement("img");
-    console.log(`Loading image: cards/${card}.png`);
     img.src = `cards/${card}.png`;
     img.alt = card;
 
